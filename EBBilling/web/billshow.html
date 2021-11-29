@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="login.html" type="text/css"/>
+
+    <meta charset='utf-8'>
+   <title>Bill Details</title>
+</head>
+<style>
+    body
+    {
+        margin:0%;
+        padding:0%;
+        font-family:montserrat;
+        background:linear-gradient(120deg,rgba(0, 89, 255, 0.76),rgb(255, 208, 0));
+        overflow:hidden;
+        height:100vh;
+    }
+    .border
+    {
+        position: absolute;
+        top:30%;
+        left:35%;
+        width:450px;
+        height:350px;
+        background-color:white;
+        border-radius:10px;
+
+    }
+    .h1center{
+        text-align:center;
+        border-bottom:5px solid indigo;
+    }
+    .textfield
+    {
+        text-align: center;
+    }
+    .click{
+        text-align: center;
+        width: 100px;
+        height:40px;
+        background-color: indigo;
+        border:1px solid white;
+        border-radius:25px;
+    }
+    
+ </style>
+    <body>
+<form method="POST" action="Billshow">
+    <div class=border>
+   <h1 class=h1center>BILL DETAILS</h1>  
+  <BR>
+  <h2 class="textfield">Consumer no<input type="text" placeholder="Enter your consumerno" name=bcno></h2>
+         <br><BR>
+         <center><input type="submit" class="click" value="Go to Payment">
+    <a href="index.html"><button type="button" class="click">CANCEL</button></a> </center> 
+    </div>
+</form>
+    </body>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>LOGIN</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<style>
+    body
+    {
+        margin:0%;
+        padding:0%;
+        font-family:montserrat;
+        background:linear-gradient(120deg,rgba(0, 89, 255, 0.76),rgb(255, 208, 0));
+        overflow:hidden;
+        height:100vh;
+    }
+    .border
+    {
+        position: absolute;
+        top:30%;
+        left:35%;
+        width:400px;
+        height:300px;
+        background-color:white;
+        border-radius:10px;
+
+    }
+    .h1center{
+        text-align:center;
+        border-bottom:5px solid indigo;
+    }
+    .textfield
+    {
+        text-align: center;
+    }
+    .click{
+        text-align: center;
+        width: 100px;
+        height:40px;
+        background-color: indigo;
+        border:1px solid white;
+        border-radius:25px;
+    }
+ </style>
+    <body>
+
+    <div class=border>
+   <h1 class=h1center> LOGIN</h1>  
+  <BR><form method="POST" action="Login">
+       <h2 class="textfield">  User ID:<input type="text" placeholder="Enter your user id" name=userid >
+         <br><BR>
+         Password:<input type="text" placeholder="Enter your password" name=psw ></h2>
+         <BR>
+         <center><input type="submit" class="click" value="LOGIN">
+            <a href="index.html">  <button type="button" class="click">CANCEL</button></a> </center> 
+    </div>
+</form>
+    </body>
